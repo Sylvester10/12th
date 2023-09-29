@@ -1,0 +1,22 @@
+select[multiple="multiple"]+div.btn-group{
+	width: 100%;
+}
+
+select[multiple="multiple"]+div.btn-group button[data-toggle="dropdown"]{
+	padding: 10px;
+	height: unset;
+}
+select[multiple="multiple"]+div.btn-group button[data-toggle="dropdown"] span.multiselect-selected-text{
+	width: 90%;
+	margin: auto;
+	/*Line Clamp Code*/
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+}
+select[multiple="multiple"]+div.btn-group .multiselect-container{
+	width: 100%;
+}
+
+.iti__arrow { border: none; }
